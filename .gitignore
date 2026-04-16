@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+coverage/
+
+# Env
+.env
+.env.*
+
+# Local dev scratch files (may contain cookies / test credentials)
+server/cookie*.txt
+server/tmp_*.txt
+server/tmp_*.json
+
+# Logs
+*.log
+
+# Local artifacts
+tmp.png
+server/tmp.png
+
+# Editor
+.vscode/
+
+# OS
+.DS_Store
+
+# Uploads
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Vite
+client/dist/
